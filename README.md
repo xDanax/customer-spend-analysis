@@ -74,10 +74,10 @@ HAVING COUNT(*) > 1;
 
 ## 🎯 Executive Summary
 From rigorous SQL exploration and segmentation queries:
-- Spending is balanced across genders with femails contributing slightly higher total revenue.
+- Spending is balanced across genders with females contributing slightly higher total revenue.
 - Customers aged 46+ generate the highest total spend and transaction volume, making them the most valuable segment.
 - Top revenue-driving segment combinations are dominated by customers aged 46+ regardless of gender or category.
-- Younger segments (26-35, 36-45) exhibit the highest average order values, indicating stronger upsell potential
+- Younger segments (26-35, 36-45) exhibit the highest average order values, indicating stronger upsell potential.
 - While Clothing and Electronics lead slightly in total profit, Beauty delivers the highest profit efficiency at 79.7% compared to 79.3% in Clothing and 78.6% in Electronics, making it a strong candidate for margin-focused upsell strategies.
 
 ### Key Recommendations (Concise)
@@ -250,7 +250,6 @@ ORDER BY profit_margin_percent DESC;
 
 ---
 ## 💡 Detailed Recommendations 
-### Marketing & Customer Strategy
 - Focus upsell and cross-sell campaigns on high-margin Beauty products, especially when targeting frequent buyers.
 
 - Design loyalty or retention programs for customers aged 46+, who contribute the largest share of total transactions and revenue.
