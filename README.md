@@ -1,6 +1,6 @@
 # Customer Spending Analysis
 
-## 📌Project Overview
+## 📌Project Background & Overview
 
 This project analyzes retail transaction data using **SQLite** to uncover customer purchasing patterns and identify high-value customer segments for targeted marketing and upsell campaigns. 
 
@@ -15,7 +15,7 @@ The goal is to answer key business questions such as:
 
 ---
 
-## 📂 Dataset
+## 📂 Dataset Structure & Data Cleaning
 
 The dataset contains **2,001 retail transactions** with the following attributes:
 
@@ -30,10 +30,6 @@ The dataset contains **2,001 retail transactions** with the following attributes
 * `price_per_unit` – Price per unit
 * `cogs` – Cost of goods sold
 * `total_sale` – Total transaction value
-
----
-
-## 🧹 Data Cleaning & Validation
 
 Before analysis, the data was validated to ensure accuracy and reliability:
 * Checked for **NULL values** across all critical columns
@@ -76,7 +72,15 @@ HAVING COUNT(*) > 1;
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## 🎯 Executive Summary
+From rigorous SQL exploration and segmentation queries:
+- Spending patterns vary significantly by gender, age group, and product category...
+- Certain demographic segments show both higher spending and higher frequency of transactions, making them ideal for targeted upsell initiatives...
+- Profitability and margin metrics highlight which categories contribute most to the bottom line...
+
+---
+
+## 🔍 Insights Deep Dive - Exploratory Data Analysis
 
 Customer segments were analyzed across multiple dimensions:
 
@@ -234,8 +238,7 @@ ORDER BY profit_margin_percent DESC;
 
 
 ---
-
-## 💡 Key Business Insights
+## 💡 Recommendations & Key Business Insights
 
 The analysis highlights:
 * Customer segments with high spending and high purchase frequency
@@ -249,19 +252,12 @@ These insights can be used by marketing teams to:
 
 ---
 
-## 🚀 Future Improvements
-
-* Add customer lifetime value (CLV) analysis
-* Visualize results using Python (Matplotlib / Seaborn) or Tableau
-* Automate segmentation logic using views
-* Introduce RFM (Recency, Frequency, Monetary) analysis
-
----
-
 ## 👤 Author
 
 **Danalee Smith**
+
 Statistics & Computer Science
+
 Data Analytics
 
 ---
