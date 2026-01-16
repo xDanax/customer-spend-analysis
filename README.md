@@ -38,7 +38,7 @@ Before analysis, the data was validated to ensure accuracy and reliability:
 ---
 
 ## 🎯 Executive Summary
-From rigorous SQL exploration, it was found that:
+From in-depth SQL exploration, it was found that:
 - Spending is balanced across genders with females contributing slightly higher total revenue.
 - Customers aged 46+ generate the highest total spend and transaction volume regardless of gender or product category, making them the most valuable segment.
 - Younger segments (ages 26-35, 36-45) show the highest average order values, indicating stronger upsell potential.
