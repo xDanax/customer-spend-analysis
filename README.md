@@ -2,7 +2,7 @@
 
 ## 📌Project Background & Overview
 
-This project analyzes retail transaction data using **SQLite** to uncover customer purchasing patterns and identify high-value customer segments for targeted marketing and upsell campaigns. 
+This project analyzes retail transaction data using **SQLite** to look into customer purchasing patterns and identify high-value customer segments for targeted marketing and upsell strategies. 
 
 The analysis focuses on:
 - **data cleaning**
@@ -73,12 +73,11 @@ HAVING COUNT(*) > 1;
 ---
 
 ## 🎯 Executive Summary
-From rigorous SQL exploration and segmentation queries:
+From rigorous SQL exploration, it was found that:
 - Spending is balanced across genders with females contributing slightly higher total revenue.
-- Customers aged 46+ generate the highest total spend and transaction volume, making them the most valuable segment.
-- Top revenue-driving segment combinations are dominated by customers aged 46+ regardless of gender or category.
-- Younger segments (26-35, 36-45) exhibit the highest average order values, indicating stronger upsell potential.
-- While Clothing and Electronics lead slightly in total profit, Beauty delivers the highest profit efficiency at 79.7% compared to 79.3% in Clothing and 78.6% in Electronics, making it a strong candidate for margin-focused upsell strategies.
+- Customers aged 46+ generate the highest total spend and transaction volume regardless of gender or product category, making them the most valuable segment.
+- Younger segments (ages 26-35, 36-45) show the highest average order values, indicating stronger upsell potential.
+- While Clothing and Electronics lead slightly in total profit, Beauty products delivers the highest profit efficiency at 79.7% (compared to 79.3% in Clothing and 78.6% in Electronics) making it a strong candidate for upsell strategies.
 
 ### Key Recommendations (Concise)
 - Prioritize Beauty products for upsell campaigns due to their superior profit margin efficiency.
@@ -249,12 +248,18 @@ ORDER BY profit_margin_percent DESC;
 
 
 ---
-## 💡 Detailed Recommendations 
-- Focus upsell and cross-sell campaigns on high-margin Beauty products, especially when targeting frequent buyers.
+## 💡 Recommendations 
+- Prioritize Beauty products for upsell campaigns due to their superior profit margin efficiency.
+  - Position Beauty items as add-ons, bundles, or premium upgrades to increase profit per transaction without relying on higher volume.
 
-- Design loyalty or retention programs for customers aged 46+, who contribute the largest share of total transactions and revenue.
+- Maintain strong investment in Clothing and Electronics, as they deliver the highest total profit volumes.
 
-- Use personalized promotions for customers aged 26–45 to capitalize on their higher average order values.
+- Target customers aged 46+ for retention strategies, as they drive the most consistent revenue.
+  - Design loyalty programs for customers aged 46+ offering exclusive discounts, early access, or personalized recommendations to reinforce repeat purchasing.
+
+- Upsell premium products to mid-age customers (26–45), who demonstrate higher average order values.
+  - Use personalized marketing and limited-time offers to encourage larger basket sizes.
+
 ---
 
 ## 👤 Author
