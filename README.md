@@ -35,41 +35,6 @@ Before analysis, the data was validated to ensure accuracy and reliability:
 * Checked for **NULL values** across all critical columns
 * Verified **transaction ID uniqueness** to detect duplicate records
 
-```sql
--- Data Cleaning
--- checking entries with NULL values
-SELECT * 
-FROM retail_sales
-WHERE 
-	transactions_id is NULL 
-	OR
-	sale_date is NULL
-	OR
-	sale_time is NULL
-	OR
-    gender IS NULL
-    OR
-	age is NULL
-	OR
-    category IS NULL
-    OR
-    quantity IS NULL
-    OR
-    cogs IS NULL
-    OR
-    total_sale IS NULL;
--- no NULL records
-
--- Checking for duplicates
-SELECT transactions_id, COUNT(*) AS count
-FROM retail_sales
-GROUP BY transactions_id
-HAVING COUNT(*) > 1;
--- no duplicates
-```
-
-✅ No NULL values or duplicate transactions were found.
-
 ---
 
 ## 🎯 Executive Summary
