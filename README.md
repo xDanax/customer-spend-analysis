@@ -230,10 +230,9 @@ ORDER BY profit_margin_percent DESC;
 ## 👤 Author
 
 **Danalee Smith**
-
-Statistics & Computer Science
-
 Data Analytics
+
+BMath Statistics & Computer Science
 
 ---
 
